@@ -1,3 +1,9 @@
+.headline img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .charm-regular {
   font-family: "Charm", serif;
   font-weight: 400;
