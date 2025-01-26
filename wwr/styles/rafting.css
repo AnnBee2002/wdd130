@@ -2,6 +2,10 @@
    font-family: "Charm", serif;
    background-color: #FFD6AF ;
 }
+
+main {
+  padding: 0px 60px;
+}
 .charm-regular {
   font-family: "Charm", serif;
   font-weight: 400;
@@ -70,17 +74,53 @@ nav ul li a {
   font-style: normal;
 }
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 .container {
-  position: relative;
+ /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/headline.jpg");
+
+ /* Set a specific height */
+ height: 50vh;
+
+ /* Position and center the image to scale nicely on all screens */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ width: 100%;
 }
 
-.image2 {
+.container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  right: -100px;
-  transform: scale(0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  color: white;
+  width: 100%;
 } 
+
+.container-text h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  padding: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ color: white;
+ 
+}
+
+.content img {
+  scale: 0.45;
+
+}
+
+.content p {
+  color: white;
+  padding-left: 20px;
+}
