@@ -1,4 +1,11 @@
-.headline img {
+:root {
+--primary-color: #FFD6AF;
+--secondary-color: #3F6C51;
+--accent1-color: #481D24;
+--accent2-color: #F2F4CB;
+}
+
+.hero img {
   display: block;
   width: 100%;
   height: auto;
