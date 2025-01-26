@@ -29,10 +29,12 @@
 
 h1, h2, h3 {
   font-family: "Charm", serif;
+  color: #3F6C51 ; 
 }
 
 p {
   font-family: "Roboto Flex", serif;
+  color: #481D24 ;
 }
 
 nav {
