@@ -1,8 +1,6 @@
 :root {
---primary-color: #FFD6AF;
---secondary-color: #3F6C51;
---accent1-color: #481D24;
---accent2-color: #F2F4CB;
+   font-family: "Charm", serif;
+   background-color: #FFD6AF ;
 }
 .center {
   text-align: center;
