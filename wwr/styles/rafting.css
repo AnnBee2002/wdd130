@@ -4,6 +4,9 @@
 --accent1-color: #481D24;
 --accent2-color: #F2F4CB;
 }
+.center {
+  text-align: center;
+}
 
 .hero img {
   display: block;
