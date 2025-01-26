@@ -9,6 +9,9 @@
   display: block;
   width: 100%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
 }
 
 .charm-regular {
