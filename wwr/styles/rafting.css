@@ -110,16 +110,31 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 95%;
  color: white;
  
 }
 
 .content img {
-  scale: 45%;
+  scale: 85%;
 }
 
 .content p {
   color: white;
   padding-left: 20px;
 }
+
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center ;
+  width: 90%;
+  padding: 10px 50px;
+
+}
+
+img {
+  width: 250px; 
+}
+
