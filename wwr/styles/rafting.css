@@ -124,12 +124,17 @@ nav ul li a {
   padding-left: 20px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  padding-left: 65px;
+}
 
 .sociallinks {
   display: flex;
   justify-content: flex-end;
   align-items: center ;
-  width: 90%;
+  width: 62%;
   padding: 10px 50px;
 
 }
@@ -138,3 +143,15 @@ img {
   width: 250px; 
 }
 
+.social-icon {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.photoforview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  width: 90%;
+  padding: 20px 0px;
+}
