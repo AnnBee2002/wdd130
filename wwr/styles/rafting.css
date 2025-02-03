@@ -20,7 +20,8 @@ main {
 
 h1, h2, h3 {
   font-family: "Charm", serif;
-  color: #3F6C51 ; 
+  color: #3F6C51 ;
+  text-align: center;
 }
 
 p {
@@ -157,11 +158,12 @@ img {
   padding: 20px 0px;
 }
 
-.history-con{
+.history-con { 
   width: 400px;
 }
 
-.floated{
+.floated {
   float: left;
   width: 150px;
 }
+
