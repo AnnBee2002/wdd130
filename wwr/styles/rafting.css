@@ -156,3 +156,12 @@ img {
   width: 90%;
   padding: 20px 0px;
 }
+
+.history-con{
+  width: 400px;
+}
+
+.floated{
+  float: left;
+  width: 150px;
+}
