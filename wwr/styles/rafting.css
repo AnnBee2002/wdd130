@@ -78,7 +78,7 @@ nav ul li a {
 
 .container {
  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
- background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/headline.jpg");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.413), rgba(0, 0, 0, 0.413)), url("../images/headline.jpg");
 
  /* Set a specific height */
  height: 50vh;
@@ -155,7 +155,7 @@ img {
   justify-content: space-between;
   align-items: center ;
   width: 90%;
-  padding: 20px 0px;
+  padding: 20px  0px;
 }
 
 .history-con { 
@@ -165,4 +165,12 @@ img {
 .floated {
   float: left;
   width: 150px;
+}
+
+.b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  width: 90%;
+  padding: 20px  0px;
 }
