@@ -118,7 +118,7 @@ nav ul li a {
 }
 
 .content img {
-  transform: (0.85);
+  transform: scale(0.85);
 }
 
 .content p {
